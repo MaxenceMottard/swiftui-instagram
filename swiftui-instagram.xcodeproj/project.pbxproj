@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04E7DA823E02C0000F1E2DC /* RemoteImage in Frameworks */ = {isa = PBXBuildFile; productRef = D04E7DA723E02C0000F1E2DC /* RemoteImage */; };
+		D04E7DAC23E0330500F1E2DC /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E7DAB23E0330500F1E2DC /* PostView.swift */; };
 		D07B8D1823DEEF9700C68CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D1723DEEF9700C68CC2 /* AppDelegate.swift */; };
 		D07B8D1A23DEEF9700C68CC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D1923DEEF9700C68CC2 /* SceneDelegate.swift */; };
-		D07B8D1C23DEEF9700C68CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D1B23DEEF9700C68CC2 /* ContentView.swift */; };
+		D07B8D1C23DEEF9700C68CC2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D1B23DEEF9700C68CC2 /* TabBar.swift */; };
 		D07B8D1E23DEEF9A00C68CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07B8D1D23DEEF9A00C68CC2 /* Assets.xcassets */; };
 		D07B8D2123DEEF9B00C68CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07B8D2023DEEF9B00C68CC2 /* Preview Assets.xcassets */; };
 		D07B8D2423DEEF9B00C68CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07B8D2223DEEF9B00C68CC2 /* LaunchScreen.storyboard */; };
+		D07B8D3023DEF94500C68CC2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D2F23DEF94500C68CC2 /* HomeView.swift */; };
+		D07B8D3423DF146100C68CC2 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D3323DF146100C68CC2 /* ViewExtensions.swift */; };
+		D07B8D3723DF30DB00C68CC2 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D3623DF30DB00C68CC2 /* Root.swift */; };
+		D07B8D3A23DF315100C68CC2 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D3923DF315100C68CC2 /* TabBarItem.swift */; };
+		D07B8D3C23DF3AC100C68CC2 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D3B23DF3AC100C68CC2 /* Data.swift */; };
+		D07B8D3F23DF3AFB00C68CC2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D3E23DF3AFB00C68CC2 /* Post.swift */; };
+		D07B8D4123DF3B1A00C68CC2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D4023DF3B1A00C68CC2 /* User.swift */; };
+		D07B8D4323DF3F3F00C68CC2 /* UiImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07B8D4223DF3F3F00C68CC2 /* UiImageViewExtensions.swift */; };
+		D0EC68FF23E090640070BE53 /* PostDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EC68FE23E090640070BE53 /* PostDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04E7DAB23E0330500F1E2DC /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		D07B8D1423DEEF9700C68CC2 /* swiftui-instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-instagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07B8D1723DEEF9700C68CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D07B8D1923DEEF9700C68CC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D07B8D1B23DEEF9700C68CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D07B8D1B23DEEF9700C68CC2 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		D07B8D1D23DEEF9A00C68CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D07B8D2023DEEF9B00C68CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D07B8D2323DEEF9B00C68CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D07B8D2523DEEF9B00C68CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07B8D2F23DEF94500C68CC2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D07B8D3323DF146100C68CC2 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		D07B8D3623DF30DB00C68CC2 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		D07B8D3923DF315100C68CC2 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		D07B8D3B23DF3AC100C68CC2 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D07B8D3E23DF3AFB00C68CC2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		D07B8D4023DF3B1A00C68CC2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D07B8D4223DF3F3F00C68CC2 /* UiImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiImageViewExtensions.swift; sourceTree = "<group>"; };
+		D0EC68FE23E090640070BE53 /* PostDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04E7DA823E02C0000F1E2DC /* RemoteImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,23 +78,113 @@
 		D07B8D1623DEEF9700C68CC2 /* swiftui-instagram */ = {
 			isa = PBXGroup;
 			children = (
-				D07B8D1723DEEF9700C68CC2 /* AppDelegate.swift */,
-				D07B8D1923DEEF9700C68CC2 /* SceneDelegate.swift */,
-				D07B8D1B23DEEF9700C68CC2 /* ContentView.swift */,
-				D07B8D1D23DEEF9A00C68CC2 /* Assets.xcassets */,
-				D07B8D2223DEEF9B00C68CC2 /* LaunchScreen.storyboard */,
-				D07B8D2523DEEF9B00C68CC2 /* Info.plist */,
-				D07B8D1F23DEEF9B00C68CC2 /* Preview Content */,
+				D07B8D4B23DF4ADA00C68CC2 /* Preview Content */,
+				D07B8D3D23DF3ADA00C68CC2 /* Models */,
+				D07B8D3123DF144100C68CC2 /* Additions */,
+				D07B8D2B23DEF03B00C68CC2 /* Application */,
+				D07B8D2D23DEF8BA00C68CC2 /* Screens */,
+				D07B8D3B23DF3AC100C68CC2 /* Data.swift */,
 			);
 			path = "swiftui-instagram";
 			sourceTree = "<group>";
 		};
-		D07B8D1F23DEEF9B00C68CC2 /* Preview Content */ = {
+		D07B8D2B23DEF03B00C68CC2 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				D07B8D2C23DEF04B00C68CC2 /* Supporting Files */,
+				D07B8D1723DEEF9700C68CC2 /* AppDelegate.swift */,
+				D07B8D1923DEEF9700C68CC2 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D07B8D2C23DEF04B00C68CC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D1D23DEEF9A00C68CC2 /* Assets.xcassets */,
 				D07B8D2023DEEF9B00C68CC2 /* Preview Assets.xcassets */,
+				D07B8D2223DEEF9B00C68CC2 /* LaunchScreen.storyboard */,
+				D07B8D2523DEEF9B00C68CC2 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D07B8D2D23DEF8BA00C68CC2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC68FC23E090520070BE53 /* PostDetail */,
+				D07B8D2E23DEF93200C68CC2 /* Home */,
+				D07B8D3823DF313F00C68CC2 /* TabBar */,
+				D07B8D3623DF30DB00C68CC2 /* Root.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D07B8D2E23DEF93200C68CC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D2F23DEF94500C68CC2 /* HomeView.swift */,
+				D04E7DAB23E0330500F1E2DC /* PostView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D07B8D3123DF144100C68CC2 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D4423DF3FCC00C68CC2 /* Reusables */,
+				D07B8D3223DF144700C68CC2 /* Extensions */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		D07B8D3223DF144700C68CC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D3323DF146100C68CC2 /* ViewExtensions.swift */,
+				D07B8D4223DF3F3F00C68CC2 /* UiImageViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D07B8D3823DF313F00C68CC2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D1B23DEEF9700C68CC2 /* TabBar.swift */,
+				D07B8D3923DF315100C68CC2 /* TabBarItem.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D07B8D3D23DF3ADA00C68CC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D07B8D3E23DF3AFB00C68CC2 /* Post.swift */,
+				D07B8D4023DF3B1A00C68CC2 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D07B8D4423DF3FCC00C68CC2 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+		D07B8D4B23DF4ADA00C68CC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0EC68FC23E090520070BE53 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D0EC68FE23E090640070BE53 /* PostDetail.swift */,
+			);
+			path = PostDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +203,9 @@
 			dependencies = (
 			);
 			name = "swiftui-instagram";
+			packageProductDependencies = (
+				D04E7DA723E02C0000F1E2DC /* RemoteImage */,
+			);
 			productName = "swiftui-instagram";
 			productReference = D07B8D1423DEEF9700C68CC2 /* swiftui-instagram.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +234,9 @@
 				Base,
 			);
 			mainGroup = D07B8D0B23DEEF9700C68CC2;
+			packageReferences = (
+				D04E7DA623E02C0000F1E2DC /* XCRemoteSwiftPackageReference "RemoteImage" */,
+			);
 			productRefGroup = D07B8D1523DEEF9700C68CC2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,8 +265,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07B8D1823DEEF9700C68CC2 /* AppDelegate.swift in Sources */,
+				D07B8D3023DEF94500C68CC2 /* HomeView.swift in Sources */,
+				D07B8D4323DF3F3F00C68CC2 /* UiImageViewExtensions.swift in Sources */,
 				D07B8D1A23DEEF9700C68CC2 /* SceneDelegate.swift in Sources */,
-				D07B8D1C23DEEF9700C68CC2 /* ContentView.swift in Sources */,
+				D07B8D3423DF146100C68CC2 /* ViewExtensions.swift in Sources */,
+				D07B8D3A23DF315100C68CC2 /* TabBarItem.swift in Sources */,
+				D07B8D1C23DEEF9700C68CC2 /* TabBar.swift in Sources */,
+				D07B8D3F23DF3AFB00C68CC2 /* Post.swift in Sources */,
+				D07B8D3723DF30DB00C68CC2 /* Root.swift in Sources */,
+				D0EC68FF23E090640070BE53 /* PostDetail.swift in Sources */,
+				D07B8D4123DF3B1A00C68CC2 /* User.swift in Sources */,
+				D04E7DAC23E0330500F1E2DC /* PostView.swift in Sources */,
+				D07B8D3C23DF3AC100C68CC2 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +416,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-instagram/Preview Content\"";
 				DEVELOPMENT_TEAM = S4J5D3N22R;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-instagram/Info.plist";
+				INFOPLIST_FILE = "swiftui-instagram/Application/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +436,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-instagram/Preview Content\"";
 				DEVELOPMENT_TEAM = S4J5D3N22R;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "swiftui-instagram/Info.plist";
+				INFOPLIST_FILE = "swiftui-instagram/Application/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +470,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D04E7DA623E02C0000F1E2DC /* XCRemoteSwiftPackageReference "RemoteImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/RemoteImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D04E7DA723E02C0000F1E2DC /* RemoteImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D04E7DA623E02C0000F1E2DC /* XCRemoteSwiftPackageReference "RemoteImage" */;
+			productName = RemoteImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D07B8D0C23DEEF9700C68CC2 /* Project object */;
 }
